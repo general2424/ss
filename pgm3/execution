@@ -1,0 +1,3 @@
+gedit pgm3.c
+cc pgm3.c
+./a.out
