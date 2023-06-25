@@ -1,0 +1,7 @@
+
+gedit pgm2.l
+gedit pgm2.y
+lex pgm2.l
+yacc -d pgm2.y
+cc lex.yy.c y.tab.c -ll
+./a.out
