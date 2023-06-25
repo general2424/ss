@@ -1,0 +1,4 @@
+
+gedit pgm5.c
+cc pgm5.c
+./a.out
