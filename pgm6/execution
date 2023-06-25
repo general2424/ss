@@ -1,0 +1,15 @@
+pgm6(a)
+
+gedit pgm6a.l
+lex pgm6a.l
+cc lex.yy.c -ll
+./a.out
+
+pgm6(b)
+
+gedit pgm6b.l
+gedit pgm6b.y
+lex pgm6b.l
+yacc -d pgm6b.y
+cc lex.yy.c y.tab.c -ll
+./a.out
