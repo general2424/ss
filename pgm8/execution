@@ -1,0 +1,3 @@
+gedit pgm8.c
+cc pgm8.c
+./a.out
