@@ -1,3 +1,4 @@
 gedit pgm9.c
 cc pgm9.c
 ./a.out
+cat output.txt
